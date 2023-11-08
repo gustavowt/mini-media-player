@@ -108,26 +108,26 @@ export default class MiniMediaPlayerEditor extends LitElement {
           </mmp-dropdown>
 
           <div class="editor-side-by-side">
-            <paper-input
+            <ha-textfield
               label="Name"
               .value="${this._config.name}"
               .configValue="${'name'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
 
-            <paper-input
+            <ha-textfield
               label="Icon"
               .value="${this._config.icon}"
               .configValue="${'icon'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
 
-            <paper-input
+            <ha-textfield
               label="Icon Image"
               .value="${this._config.icon_image}"
               .configValue="${'icon_image'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
           </div>
 
           <div class="editor-side-by-side">
@@ -217,42 +217,42 @@ export default class MiniMediaPlayerEditor extends LitElement {
           </div>
 
           <div class="editor-side-by-side">
-            <paper-input
+            <ha-textfield
               label="Volume Step (1-100)"
               .value="${this._config.volume_step}"
               .configValue="${'volume_step'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
 
-            <paper-input
+            <ha-textfield
               label="Max Volume (1-100)"
               .value="${this._config.max_volume}"
               .configValue="${'max_volume'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
 
-            <paper-input
+            <ha-textfield
               label="Min Volume (1-100)"
               .value="${this._config.min_volume}"
               .configValue="${'min_volume'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
           </div>
 
           <div class="editor-side-by-side">
-            <paper-input
+            <ha-textfield
               label="Background"
               .value="${this._config.background}"
               .configValue="${'background'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
 
-            <paper-input
+            <ha-textfield
               label="Scale"
               .value="${this._config.scale}"
               .configValue="${'scale'}"
               @value-changed=${this.valueChanged}
-            ></paper-input>
+            ></ha-textfield>
           </div>
 
           <div>
